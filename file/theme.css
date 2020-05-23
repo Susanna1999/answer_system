@@ -1,0 +1,111 @@
+html {
+    padding: 0;
+    background: #EB3F3E url("../images/index_bg.png") no-repeat right bottom;
+    background: #E3f09b no-repeat right bottom;
+    background-color: #FFFCDB;
+    background-attachment: fixed;
+}
+
+.index_bg {
+    background: url("../images/index_bg.png") no-repeat right bottom;
+    min-width: 118px;
+    min-height: 120px;
+    width:30%;
+    height:20%;
+    position: absolute;
+    right: 2em;
+    bottom: 2em;
+    opacity: .6;
+    filter: alpha(opacity=60);
+    z-index: -1;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.answer-card-container {}
+
+.answer-card-container header .title {
+    color: #fff;
+    color: #333;
+}
+
+.answer-card-container .question,
+.answer-card-container .explain {
+    /* background: #EB3F3E url("../images/index_bg.png") no-repeat right bottom; */
+}
+
+.answer-card-container .question-content {
+    /* background: url("../images/t_w.png"); */
+    /* background-color: #E3f09b;
+    background-color: #F8F4C4;
+    background-color: #F7F4D2;
+    background-color: #FAF7D7; */
+    background-color: #F7F4D2;
+    /*2*/
+    color: #FFF;
+    color: #333;
+}
+
+.answer-card-container .question-option .option-check {
+    background-image: url("../images/uncheck.png");
+}
+
+.answer-card-container .question-option.quest-option-selected .option-check {
+    background-image: url("../images/checked.png");
+}
+
+.answer-card-container .question-option.quest-option-check-answer-selected {
+    /* color: #45B148; */
+    font-weight: bolder;
+}
+
+.answer-card-container .no-question {
+    color: #E27C28;
+}
+
+.answer-card-container .explain-content {
+    background: url("../images/t_b.png");
+    color: #450b0c;
+}
+
+.answer-card-container .explain-content .stamp.right {
+    background: url("../images/right.png") no-repeat;
+    width: 179px;
+    height: 177px;
+}
+
+.answer-card-container .explain-content .stamp.wrong {
+    background: url("../images/wrong.png") no-repeat;
+    width: 179px;
+    height: 177px;
+}
+
+.button-container>.button-msg {
+    color: #FFF;
+    color: #d22f28;
+}
+
+.button-container>.button-ok>a {
+    background: #FEC71F;
+    color: #d22f28;
+    border-radius: 10px;
+}
+
+.stamp {
+    display: none;
+}
+
+.stamp-text.right {
+    color: #43B449;
+}
+
+.stamp-text.wrong {
+    color: #d22f28;
+}
+
+.answer-card-container .explain-content {
+    min-height: 120px;
+}

@@ -1,0 +1,89 @@
+.index_bg_welcome {
+    position: absolute;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #FFFCDB url(".images/index-bg-welcome.png") no-repeat left top;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.index_text_welcome {
+    color: #CC2F2F;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 55%;
+}
+
+
+/* Animate Background Image */
+
+@keyframes aitf {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+@-webkit-keyframes aitf {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+.index_text_welcome>p {
+    margin: 0;
+    /* font-family: "华文行楷", "微软雅黑", "黑体", "宋体", "Simsun", sans-serif; */
+    font-family: "Microsoft YaHei", "黑体", "宋体", sans-serif;
+}
+
+.btn-calendar {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 4em;
+    font-weight: bold;
+    color: #333;
+    font-size: 1.5em;
+    text-decoration:underline;
+    display: none;
+}
+
+.btn-calendar>div.img-container {
+    display: none;
+}
+
+.btn-calendar>div.href-container {
+   line-height: 2em;
+}
+
+.btn-calendar>img {
+    width: 100%;
+    height: 100%;
+}
+
+.calendar-list {
+    height: 100%;
+    display: none;
+    padding-top: 2em;
+    text-align: center;
+}
+
+.calendar-list>div {
+    width: 49%;
+    float: left;
+}
+
+.calendar-list .cal-item {
+    line-height: 2.5em;
+    text-decoration: underline;
+}
